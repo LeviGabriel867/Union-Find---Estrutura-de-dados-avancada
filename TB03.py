@@ -45,7 +45,6 @@ class GerenciadorDisciplinas:
         else:
             self.alunos_disciplinas[nome].update(disciplinas)
 
-        # Adicionar aluno ao Union-Find de cada disciplina
         for disciplina in disciplinas:
             if disciplina not in self.union_find_disciplinas:
                 self.union_find_disciplinas[disciplina] = UnionFind()
