@@ -1,10 +1,10 @@
 # Projeto: Rede de Colaboração Acadêmica Utilizando Union-Find
 
 ### Tema:
-O projeto visa criar uma **Rede de Colaboração Acadêmica** que facilita a formação de grupos de estudo entre alunos com base nas disciplinas que estão cursando ou já cursaram. O objetivo é conectar alunos com dificuldades similares ou que compartilham interesses acadêmicos, promovendo colaboração e mentorias entre eles.
+O projeto tem como ideia criar uma **Rede de Colaboração Acadêmica** que facilita na formação de grupos de estudo entre os alunos com base nas disciplinas que estão cursando,já cursaram ou que compartilham interesses acadêmicos, ajudando na colaboração e mentorias.
 
 ### Cenário de Aplicação:
-Imagine uma universidade onde os alunos têm dificuldades em encontrar colegas para colaborar em disciplinas específicas. Esse sistema automatiza a criação de grupos de estudo, utilizando o **Union-Find** para agrupar alunos de forma eficiente com base nas disciplinas, permitindo que alunos se ajudem mutuamente em seus estudos.
+Na universidade onde os alunos cursam varias cadeiras e tem varios tópicos de interesses diferentes eles têm dificuldades em encontrar colegas para colaborar em disciplinas específicas e projetos. Esse sistema automatiza a criação de grupos de estudo, utilizando o **Union-Find** para agrupar alunos de forma eficiente com base nas disciplinas e interesses, permitindo que alunos se ajudem mutuamente em seus estudos.
 
 ## 2. Descrição do Problema
 
@@ -17,7 +17,7 @@ O problema é gerenciar grupos de alunos que compartilham disciplinas em comum, 
 
 ## 3. Implementação
 
-O projeto implementa o **Union-Find** com as seguintes otimizações:
+O projeto implementa o **Union-Find** com as otimizações:
 - **Compressão de Caminho**: Para tornar as buscas mais rápidas.
 - **União por Rank**: Para balancear a estrutura, mantendo sua eficiência.
 
